@@ -1,9 +1,9 @@
 package com.technews.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import groovyjarjarantlr4.v4.runtime.misc.NotNull;
+import com.sun.istack.NotNull;
+import jakarta.persistence.*;
 
-import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
