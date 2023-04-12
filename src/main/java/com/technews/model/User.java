@@ -137,4 +137,9 @@ public class User {
                 ", comments=" + comments +
                 '}';
     }
+
+//    added 4/11/2023
+    public boolean isLoggedIn() {
+        return loggedin;
+    }
 }
